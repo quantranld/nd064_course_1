@@ -1,3 +1,6 @@
+// Application version: v1.0.0
+// port exposed: 6111
+
 package main
 
 import (
