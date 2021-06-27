@@ -5,6 +5,8 @@ Vagrant.configure("2") do |config|
   
   # set the image for the vagrant box
   config.vm.box = "opensuse/Leap-15.2.x86_64"
+  config.vm.hostname = "suseleap1502"
+  config.vm.boot_timeout = 600 # default is 300s
   ## Set the image version
   # config.vm.box_version = "15.2.31.212"
 
