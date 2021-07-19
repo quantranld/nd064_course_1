@@ -1,3 +1,4 @@
 # python3 env
 exercises/python-helloworld/susel2/
 *.log
+*/.vagrant/*
